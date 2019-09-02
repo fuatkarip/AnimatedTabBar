@@ -28,10 +28,10 @@ open class AnimatedTabBarAppearance {
                                             alpha: 1)
     
     /// Text font in tabbar
-    open var textFont: UIFont = UIFont(name: "AppleSDGothicNeo-Bold", size: 11) ?? .boldSystemFont(ofSize: 11)
+    open var textFont: UIFont = UIFont(name: "AppleSDGothicNeo-Bold", size: 12) ?? .boldSystemFont(ofSize: 12)
     
     /// Background color
-    open var backgroundColor: UIColor = .darkGray
+    open var backgroundColor: UIColor = .black
     
     /// Pops to root if true
     open var popsToRoot: Bool = true
