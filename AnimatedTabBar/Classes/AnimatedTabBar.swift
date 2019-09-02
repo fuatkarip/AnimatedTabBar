@@ -67,7 +67,7 @@ open class AnimatedTabBar: CommonUIView {
     }
     
     private func configureContentView() {
-        contentView.backgroundColor = .clear
+        contentView.backgroundColor = .black
         contentView.translatesAutoresizingMaskIntoConstraints = false
         addSubview(contentView)
         contentView.layer.masksToBounds = true
