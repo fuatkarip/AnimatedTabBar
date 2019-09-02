@@ -13,7 +13,7 @@ open class AnimatedTabBarAppearance {
     public static let shared : AnimatedTabBarAppearance = AnimatedTabBarAppearance()
     
     /// Animation duration
-    open var animationDuration: TimeInterval = 1.5
+    open var animationDuration: TimeInterval = 0.5
     
     /// Dot color
     open var dotColor: UIColor = UIColor(red: 5/255,
@@ -31,7 +31,7 @@ open class AnimatedTabBarAppearance {
     open var textFont: UIFont = UIFont(name: "AppleSDGothicNeo-Bold", size: 10) ?? .boldSystemFont(ofSize: 10)
     
     /// Background color
-    open var backgroundColor: UIColor = .white
+    open var backgroundColor: UIColor = .darkGray
     
     /// Pops to root if true
     open var popsToRoot: Bool = true
