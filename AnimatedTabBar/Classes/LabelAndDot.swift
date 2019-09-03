@@ -32,7 +32,7 @@ class LabelAndDot: CommonUIView {
     override func commonInit() {
         super.commonInit()
         dot = UIView()
-        label = UILabel()
+        label = UILabel(frame: bounds)
     }
     
     override func willMove(toSuperview newSuperview: UIView?) {
@@ -61,7 +61,7 @@ class LabelAndDot: CommonUIView {
         label.font = AnimatedTabBarAppearance.shared.textFont
         label.textColor = AnimatedTabBarAppearance.shared.textColor
         label.textAlignment = .center
-        label.fitTextToBounds()
+       
         label.translatesAutoresizingMaskIntoConstraints = false
         addSubview(label)
         
