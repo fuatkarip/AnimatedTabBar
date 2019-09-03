@@ -61,7 +61,7 @@ class LabelAndDot: CommonUIView {
         label.font = AnimatedTabBarAppearance.shared.textFont
         label.textColor = AnimatedTabBarAppearance.shared.textColor
         label.textAlignment = .center
-        
+        label.fitTextToBounds()
         label.translatesAutoresizingMaskIntoConstraints = false
         addSubview(label)
         
