@@ -31,7 +31,7 @@ open class AnimatedTabBarAppearance {
     open var textFont: UIFont = UIFont(name: "AppleSDGothicNeo-Bold", size: 12) ?? .boldSystemFont(ofSize: 12)
     
     /// Background color
-    open var backgroundColor: UIColor = .black
+    open var backgroundColor: UIColor = .white
     
     /// Pops to root if true
     open var popsToRoot: Bool = true
