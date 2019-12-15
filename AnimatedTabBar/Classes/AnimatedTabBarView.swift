@@ -119,6 +119,7 @@ class AnimatedTabBarView: CommonUIView {
     }
     
     @objc private func itemTapped(_ sender: UITapGestureRecognizer) {
+        print("tab tıklandı")
         delegate?.didTapped(on: self)
     }
 }
