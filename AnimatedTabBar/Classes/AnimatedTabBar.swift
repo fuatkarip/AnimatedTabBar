@@ -115,6 +115,9 @@ open class AnimatedTabBar: CommonUIView {
 
 extension AnimatedTabBar : AnimatedTabBarViewDelegate {
     func didTapped(on item: AnimatedTabBarView) {
+        
+        print("tab tıklandı")
+        
         if item.isSelected { // move to root
             if AnimatedTabBarAppearance.shared.popsToRoot,
                 let nav = selected?.associatedController as? UINavigationController {
